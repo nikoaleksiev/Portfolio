@@ -21,23 +21,28 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.prev {
-    position: absolute;
+.slides-navigation .prev,
+.slides-navigation .next{
     width: 50px;
     height: 50px;
     background-color: #e1e8f0;
-    opacity: 0.2;
-    border-radius: 5px;
+    opacity: 0.4;
+    border-radius: 50%;
 }
 
-.next {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 1455px;
-    background-color: #e1e8f0;
-    opacity: 0.2;
-    border-radius: 5px;
+.slides-navigation .prev{
+    left: 20px;
+    background: url(images/left.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.slides-navigation .next{
+    right: 40px;
+    background: url(images/right.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }
 
 .titleMessage {
